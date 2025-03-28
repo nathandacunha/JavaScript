@@ -13,6 +13,7 @@ function ordemDecrescente(){
  
     var numeros = [num1, num2, num3, num4];
     numeros.sort();
-    numeros.reverse();
+    document.write(numeros.reverse());
+   
 
 }
