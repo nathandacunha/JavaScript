@@ -3,7 +3,11 @@
 function verificacaoLetra() {
     letraDigitar = prompt("Digite uma letra: ");
 
-    if (letraDigitar.includes("a", "i", "o", "u")) {
-        alert("A letra é vogal");
+    letraVogais = ["a", "e", "i", "o", "u"];
+
+    if (Array.prototype.indexOf(letraDigitar.toLowerCase()) != 0 ) {
+        alert("Vogal");
+    } else {
+        alert("Consoante");
     }
 }
