@@ -25,11 +25,11 @@ function precoPicole(){
 
     let opcoes = prompt("Decide um tipo de picole (tudo minusculo): \n");
     if (opcoes == "a"){
-        alert("Preço:s R$1.50"); //1.50
+        alert("Custa: R$1.50"); //1.50
     } else if (opcoes == "b") {
-        alert("Preço R$2,50") // 2,50
+        alert("Custa: R$2,50") // 2,50
     } else if (opcoes == "c") {
-        alert("Preço: R$2,50"); // 2,50
+        alert("Custa: R$2,50"); // 2,50
     } else if (opcoes == "d"){
         alert("Custa: R$3,20") // 3,20
     } else if (opcoes == "e") {
