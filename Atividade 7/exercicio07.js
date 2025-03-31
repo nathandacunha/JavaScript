@@ -23,7 +23,7 @@ function precoPicole(){
     alert("h. Brownie")
     alert("i. Hawaiano")
 
-    opcoes = prompt("Decide um tipo de picole (tudo minusculo): \n");
+    let opcoes = prompt("Decide um tipo de picole (tudo minusculo): \n");
     if (opcoes == "a"){
         alert("Preço:s R$1.50"); //1.50
     } else if (opcoes == "b") {
